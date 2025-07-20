@@ -68,6 +68,7 @@ article {
 
 .hero {
     position: relative;
+    padding-top: 20px;
 }
 
 .hero img {
