@@ -92,10 +92,11 @@ h1 {
     position: absolute;
     background-color: var(--accent2-color);
     bottom: 40px;
+    right: 180px;
     text-align: center;
     width: 805px;
     opacity: 0.8;
-
+    justify-content: center;
 }
 
 article p {
