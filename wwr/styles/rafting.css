@@ -250,8 +250,10 @@ textarea {
 }
 
 input[type="radio"] {
+    position: relative;
     width: 25px;
     height: 25px;
+    right: 150px;
 }
 
 label {
@@ -284,6 +286,10 @@ button:hover {
     padding: 5px;
 }
 
+.column2 {
+    grid-template-columns: 2fr 1fr;
+}
+
 .company-contact p {
     font-size: 25px;
     padding-top: 20px;
@@ -293,4 +299,12 @@ iframe {
     width: 600px;
     height: 450px;
     border: none;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    right: 150px;
 }
