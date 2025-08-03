@@ -172,6 +172,10 @@ footer p {
     justify-content: center;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 .socialmedia a {
     margin-left: 1rem;
 }
@@ -180,4 +184,99 @@ footer p {
     width: 24px;
     height: 24px;
     vertical-align: middle;
+}
+
+.contact-info-map {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.employee-grid img {
+    width: 250px;
+    height: auto;
+}
+
+.employee-grid figcaption {
+    margin-left: 90px;
+}
+
+form {
+    display: grid;
+    width: 800px;
+    margin: 30px;
+    margin-left: 80px;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 0;
+    color: #000000;
+    background-color: var(--accent2-color);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 5px;
+    border: 0.5px solid rgb(7, 6, 6);
+    padding: 5px;
+}
+
+legend {
+    padding: 5px;
+    color: var(--primary-color);
+    font-size: 22px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    align-items: center;
+}
+
+input[type="radio"] {
+    width: 25px;
+    height: 25px;
+}
+
+label {
+    padding-right: 20px;
+    padding-top: 10px;
+    align-items: center;
+    font-size: 18px;
+}
+
+button {
+    margin: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.form-item {
+    display: grid;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 5px;
+}
+
+.company-contact p  {
+    font-size: 25px;
+    padding-top: 20px;
 }
