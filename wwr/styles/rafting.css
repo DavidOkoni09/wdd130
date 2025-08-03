@@ -241,7 +241,8 @@ legend {
     font-size: 22px;
 }
 
-input, textarea {
+input,
+textarea {
     padding: 10px;
     font-size: 18px;
     margin: 10px;
@@ -283,7 +284,13 @@ button:hover {
     padding: 5px;
 }
 
-.company-contact p  {
+.company-contact p {
     font-size: 25px;
     padding-top: 20px;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+    border: none;
 }
