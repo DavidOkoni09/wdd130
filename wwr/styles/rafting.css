@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: #005F80;
 }
 
 header,
@@ -237,7 +237,7 @@ fieldset {
 
 legend {
     padding: 5px;
-    color: var(--primary-color);
+    color: #004080;
     font-size: 22px;
 }
 
