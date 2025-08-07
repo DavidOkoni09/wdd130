@@ -79,13 +79,45 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 40px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #000000;
+}
+
+.action-call {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.action-call .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077b6;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.action-call p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.offerings-grid img {
+    width: 400px;
+    height: auto;
 }
 
 .hero article {
@@ -264,6 +296,7 @@ label {
 }
 
 button {
+    display: block;
     margin: 10px;
     background-color: var(--primary-color);
     color: white;
@@ -271,6 +304,8 @@ button {
     border: none;
     border-radius: 5px;
     padding: 7px;
+    max-width: 120px;
+    margin: 0 auto;
 }
 
 button:hover {
