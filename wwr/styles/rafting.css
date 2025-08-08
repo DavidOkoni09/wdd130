@@ -226,7 +226,7 @@ footer a {
 
 .h1 {
     position: relative;
-    top: -100px;
+    top: -120px;
     font-size: 20px;
 }
 
@@ -342,4 +342,55 @@ input[type="checkbox"] {
     height: 25px;
     border-radius: 5px;
     right: 150px;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.trip-grid article {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.trip-grid img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+th, td {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+tr:hover {
+    background-color: #5ed1e8;
+}
+
+tr {
+    font-size: 25px
 }
